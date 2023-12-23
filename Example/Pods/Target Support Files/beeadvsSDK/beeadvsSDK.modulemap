@@ -1,6 +1,0 @@
-framework module beeadvsSDK {
-  umbrella header "beeadvsSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

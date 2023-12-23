@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'beeadvsSDK_Example' do
+  pod 'beeadvsSDK', :path => '../'
+
+  target 'beeadvsSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D0448AAD2C05962C83E91A49EF871BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		395E334BC4ECCCF8A9A959C34FE620B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4B571093BF1796BB0E66CFAD0D820C3D /* Pods-beeadvsSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 837845C63E752D99D0990D66EF363D00 /* Pods-beeadvsSDK_Tests-dummy.m */; };
+		54DB9090F1631B6356F090E820A15A9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6FAEFE7B4EC2DE9154EF545B096D4C1D /* Pods-beeadvsSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99E9768741512D1E94B9ACD3C549D6E2 /* Pods-beeadvsSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74A9660F05D9FB6CE3B80B87862EB235 /* Pods-beeadvsSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DED25A2506A80666D24B9DF607E7B64C /* Pods-beeadvsSDK_Example-dummy.m */; };
+		844A70FC1BAECDA073F2436EA551225F /* Pods-beeadvsSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E49E447F158A4AA5C9EDD96F2C72F483 /* Pods-beeadvsSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A717BCF818CBB2B5B1DA0BA5DF5B8A51 /* beeadvsSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B100C4C6233D0A45004ECDBBD709E411 /* beeadvsSDK-dummy.m */; };
+		BB40EC034183B3B87A628A3280E0D586 /* beeadvsSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FB0428C19F20D7F0AA091B11766FFD /* beeadvsSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E187F864972EFC74C68135E178437090 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB46F0A41226F6DDABC124BEA36F0E /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F91350B4525B4B4808DC30C3ADA01E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29693F3EF1C107C004035C9FE086AB7B;
+			remoteInfo = beeadvsSDK;
+		};
+		CAAD00CA20329FFAE9F34224318373A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7834E5CF0FAA459F52B634224C2D237;
+			remoteInfo = "Pods-beeadvsSDK_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021ED50F6F540C4D332B6EE03E2753AC /* Pods-beeadvsSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-beeadvsSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		04214C885DB495C097F09326BC8C06B0 /* Pods-beeadvsSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-beeadvsSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		07FB0428C19F20D7F0AA091B11766FFD /* beeadvsSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "beeadvsSDK-umbrella.h"; sourceTree = "<group>"; };
+		106C32F8050C61510791A49ABCCABAF2 /* beeadvsSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = beeadvsSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		16B225D338383009206C471ABD549A84 /* Pods-beeadvsSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-beeadvsSDK_Example.modulemap"; sourceTree = "<group>"; };
+		1907BABC7D445FA9F2DF3E5DD0A0D58E /* beeadvsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = beeadvsSDK.debug.xcconfig; sourceTree = "<group>"; };
+		1AC173EC4AB31F1BA5199DED33C5A246 /* Pods-beeadvsSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-beeadvsSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2357933FDED24CC03F6BD00472EEA2E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		26025DF8A613B2D4EE9A204F1B1445A4 /* Pods-beeadvsSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-beeadvsSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		28072DA5D3D5D3C8F56BED9212F98FAF /* beeadvsSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = beeadvsSDK; path = beeadvsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0890A07509CD2D1A564F0497A69F04 /* beeadvsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = beeadvsSDK.release.xcconfig; sourceTree = "<group>"; };
+		3D51F14B461DA26F27FC2B4946A1D09F /* beeadvsSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = beeadvsSDK.modulemap; sourceTree = "<group>"; };
+		4D8A8849ECD2853822475A8533CD55E0 /* Pods-beeadvsSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-beeadvsSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5900A60852F3263919D35DCE81EC8105 /* Pods-beeadvsSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-beeadvsSDK_Tests"; path = Pods_beeadvsSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		837845C63E752D99D0990D66EF363D00 /* Pods-beeadvsSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-beeadvsSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		849919B9DF6F558376C48275510A22D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8785AD6F92DACC2B8A52032CFEA526DB /* Pods-beeadvsSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-beeadvsSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		99E9768741512D1E94B9ACD3C549D6E2 /* Pods-beeadvsSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-beeadvsSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		9A8D8858D3088210B290F3536F3347C9 /* beeadvsSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "beeadvsSDK-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B100C4C6233D0A45004ECDBBD709E411 /* beeadvsSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "beeadvsSDK-dummy.m"; sourceTree = "<group>"; };
+		C296EB4FE0DAF4DA12F1B11DC9E0BAC9 /* Pods-beeadvsSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-beeadvsSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD2FE07BC99935E3B622116432B95836 /* Pods-beeadvsSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-beeadvsSDK_Example"; path = Pods_beeadvsSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDB46F0A41226F6DDABC124BEA36F0E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = beeadvsSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		CF36D37E6B5A2D219DCB2D1E4C7D6ED2 /* Pods-beeadvsSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-beeadvsSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		D82FE3A1D592EAAE9FAF7C341C6F2105 /* Pods-beeadvsSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-beeadvsSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DCDC33497D3ED2936CCC3CFB4C42A826 /* beeadvsSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "beeadvsSDK-Info.plist"; sourceTree = "<group>"; };
+		DED25A2506A80666D24B9DF607E7B64C /* Pods-beeadvsSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-beeadvsSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		E49E447F158A4AA5C9EDD96F2C72F483 /* Pods-beeadvsSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-beeadvsSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EF98EC97ED9F2D76A118C1D86BB0FB06 /* Pods-beeadvsSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-beeadvsSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1999AD3EF315407A8500503C4BCEA42 /* Pods-beeadvsSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-beeadvsSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F7C76E2873F8295E22ED8B7C0D73B9B4 /* Pods-beeadvsSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-beeadvsSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91D96F9A31161D17D6C62A649D89BD33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54DB9090F1631B6356F090E820A15A9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F38C0326C8AADE57369883B080B5C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0448AAD2C05962C83E91A49EF871BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6A2FB77E0951F3232E7E7B8D07F9AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395E334BC4ECCCF8A9A959C34FE620B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034E90FE4A71EEF6933B04297055042C /* Pods-beeadvsSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				26025DF8A613B2D4EE9A204F1B1445A4 /* Pods-beeadvsSDK_Tests.modulemap */,
+				1AC173EC4AB31F1BA5199DED33C5A246 /* Pods-beeadvsSDK_Tests-acknowledgements.markdown */,
+				F7C76E2873F8295E22ED8B7C0D73B9B4 /* Pods-beeadvsSDK_Tests-acknowledgements.plist */,
+				837845C63E752D99D0990D66EF363D00 /* Pods-beeadvsSDK_Tests-dummy.m */,
+				04214C885DB495C097F09326BC8C06B0 /* Pods-beeadvsSDK_Tests-Info.plist */,
+				E49E447F158A4AA5C9EDD96F2C72F483 /* Pods-beeadvsSDK_Tests-umbrella.h */,
+				EF98EC97ED9F2D76A118C1D86BB0FB06 /* Pods-beeadvsSDK_Tests.debug.xcconfig */,
+				4D8A8849ECD2853822475A8533CD55E0 /* Pods-beeadvsSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-beeadvsSDK_Tests";
+			path = "Target Support Files/Pods-beeadvsSDK_Tests";
+			sourceTree = "<group>";
+		};
+		1B57F87964D2EA372AE29D453F649F32 /* Pods-beeadvsSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				16B225D338383009206C471ABD549A84 /* Pods-beeadvsSDK_Example.modulemap */,
+				C296EB4FE0DAF4DA12F1B11DC9E0BAC9 /* Pods-beeadvsSDK_Example-acknowledgements.markdown */,
+				8785AD6F92DACC2B8A52032CFEA526DB /* Pods-beeadvsSDK_Example-acknowledgements.plist */,
+				DED25A2506A80666D24B9DF607E7B64C /* Pods-beeadvsSDK_Example-dummy.m */,
+				021ED50F6F540C4D332B6EE03E2753AC /* Pods-beeadvsSDK_Example-frameworks.sh */,
+				CF36D37E6B5A2D219DCB2D1E4C7D6ED2 /* Pods-beeadvsSDK_Example-Info.plist */,
+				99E9768741512D1E94B9ACD3C549D6E2 /* Pods-beeadvsSDK_Example-umbrella.h */,
+				F1999AD3EF315407A8500503C4BCEA42 /* Pods-beeadvsSDK_Example.debug.xcconfig */,
+				D82FE3A1D592EAAE9FAF7C341C6F2105 /* Pods-beeadvsSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-beeadvsSDK_Example";
+			path = "Target Support Files/Pods-beeadvsSDK_Example";
+			sourceTree = "<group>";
+		};
+		2E682D3115D4D697B2415D64FB2926D2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				106C32F8050C61510791A49ABCCABAF2 /* beeadvsSDK.podspec */,
+				2357933FDED24CC03F6BD00472EEA2E5 /* LICENSE */,
+				849919B9DF6F558376C48275510A22D8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		49B1A4DB3D8C983027E92DAA87F8079B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D51F14B461DA26F27FC2B4946A1D09F /* beeadvsSDK.modulemap */,
+				B100C4C6233D0A45004ECDBBD709E411 /* beeadvsSDK-dummy.m */,
+				DCDC33497D3ED2936CCC3CFB4C42A826 /* beeadvsSDK-Info.plist */,
+				9A8D8858D3088210B290F3536F3347C9 /* beeadvsSDK-prefix.pch */,
+				07FB0428C19F20D7F0AA091B11766FFD /* beeadvsSDK-umbrella.h */,
+				1907BABC7D445FA9F2DF3E5DD0A0D58E /* beeadvsSDK.debug.xcconfig */,
+				2D0890A07509CD2D1A564F0497A69F04 /* beeadvsSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/beeadvsSDK";
+			sourceTree = "<group>";
+		};
+		5223312FE42BF8B2B48BD63B54296467 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28072DA5D3D5D3C8F56BED9212F98FAF /* beeadvsSDK */,
+				CD2FE07BC99935E3B622116432B95836 /* Pods-beeadvsSDK_Example */,
+				5900A60852F3263919D35DCE81EC8105 /* Pods-beeadvsSDK_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		89B029377A12FC56B9877BAFAC08B206 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B57F87964D2EA372AE29D453F649F32 /* Pods-beeadvsSDK_Example */,
+				034E90FE4A71EEF6933B04297055042C /* Pods-beeadvsSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		97190DB98220B01A7585664DF4B95149 /* beeadvsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB46F0A41226F6DDABC124BEA36F0E /* ReplaceMe.m */,
+				2E682D3115D4D697B2415D64FB2926D2 /* Pod */,
+				49B1A4DB3D8C983027E92DAA87F8079B /* Support Files */,
+			);
+			name = beeadvsSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D635071ACF239F8840010457473F0DB6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5223312FE42BF8B2B48BD63B54296467 /* Products */,
+				89B029377A12FC56B9877BAFAC08B206 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D635071ACF239F8840010457473F0DB6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97190DB98220B01A7585664DF4B95149 /* beeadvsSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01BBA0DD1243A99896EA9F9FBB1462A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB40EC034183B3B87A628A3280E0D586 /* beeadvsSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A1F48CDBAAE976357E21B414F2B50E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAEFE7B4EC2DE9154EF545B096D4C1D /* Pods-beeadvsSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7705A7D9D891FEFAED621554AFB77955 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844A70FC1BAECDA073F2436EA551225F /* Pods-beeadvsSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29693F3EF1C107C004035C9FE086AB7B /* beeadvsSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E3D1E69E366F63FFB190BE2750AB566 /* Build configuration list for PBXNativeTarget "beeadvsSDK" */;
+			buildPhases = (
+				01BBA0DD1243A99896EA9F9FBB1462A7 /* Headers */,
+				ECB51E91E809F3B66458BA7E4EB6E98F /* Sources */,
+				A3F38C0326C8AADE57369883B080B5C6 /* Frameworks */,
+				F6D826103A7042A3E439E00D29E2A857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = beeadvsSDK;
+			productName = beeadvsSDK;
+			productReference = 28072DA5D3D5D3C8F56BED9212F98FAF /* beeadvsSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7834E5CF0FAA459F52B634224C2D237 /* Pods-beeadvsSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2D382B18B3D6059BECF685622694EC0 /* Build configuration list for PBXNativeTarget "Pods-beeadvsSDK_Example" */;
+			buildPhases = (
+				29A1F48CDBAAE976357E21B414F2B50E /* Headers */,
+				51A61E09CAB09D948BF8F56FE971226B /* Sources */,
+				91D96F9A31161D17D6C62A649D89BD33 /* Frameworks */,
+				334698019161701FE6C2C757D5C7DC78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E41C64E8FC97C3FEDD53EC773757ED /* PBXTargetDependency */,
+			);
+			name = "Pods-beeadvsSDK_Example";
+			productName = Pods_beeadvsSDK_Example;
+			productReference = CD2FE07BC99935E3B622116432B95836 /* Pods-beeadvsSDK_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF747B8719B7796D52F272767FF6D28C /* Pods-beeadvsSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7E6E3EA007936BF24FD3CA831F7DDBC /* Build configuration list for PBXNativeTarget "Pods-beeadvsSDK_Tests" */;
+			buildPhases = (
+				7705A7D9D891FEFAED621554AFB77955 /* Headers */,
+				38935D89467ECABD1092CDC1A321AE2A /* Sources */,
+				FD6A2FB77E0951F3232E7E7B8D07F9AF /* Frameworks */,
+				A97C31EB3D1DD8CBA65CCFC5CECBC613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CDCC70319CA906422192F6586458CDF /* PBXTargetDependency */,
+			);
+			name = "Pods-beeadvsSDK_Tests";
+			productName = Pods_beeadvsSDK_Tests;
+			productReference = 5900A60852F3263919D35DCE81EC8105 /* Pods-beeadvsSDK_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5223312FE42BF8B2B48BD63B54296467 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29693F3EF1C107C004035C9FE086AB7B /* beeadvsSDK */,
+				B7834E5CF0FAA459F52B634224C2D237 /* Pods-beeadvsSDK_Example */,
+				EF747B8719B7796D52F272767FF6D28C /* Pods-beeadvsSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		334698019161701FE6C2C757D5C7DC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97C31EB3D1DD8CBA65CCFC5CECBC613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D826103A7042A3E439E00D29E2A857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38935D89467ECABD1092CDC1A321AE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B571093BF1796BB0E66CFAD0D820C3D /* Pods-beeadvsSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A61E09CAB09D948BF8F56FE971226B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A9660F05D9FB6CE3B80B87862EB235 /* Pods-beeadvsSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB51E91E809F3B66458BA7E4EB6E98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A717BCF818CBB2B5B1DA0BA5DF5B8A51 /* beeadvsSDK-dummy.m in Sources */,
+				E187F864972EFC74C68135E178437090 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CDCC70319CA906422192F6586458CDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-beeadvsSDK_Example";
+			target = B7834E5CF0FAA459F52B634224C2D237 /* Pods-beeadvsSDK_Example */;
+			targetProxy = CAAD00CA20329FFAE9F34224318373A4 /* PBXContainerItemProxy */;
+		};
+		D4E41C64E8FC97C3FEDD53EC773757ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = beeadvsSDK;
+			target = 29693F3EF1C107C004035C9FE086AB7B /* beeadvsSDK */;
+			targetProxy = 1F91350B4525B4B4808DC30C3ADA01E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12C6D597EE953B10ABA31C17DD691493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D8A8849ECD2853822475A8533CD55E0 /* Pods-beeadvsSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-beeadvsSDK_Tests/Pods-beeadvsSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-beeadvsSDK_Tests/Pods-beeadvsSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		405A3D8F41F1EAB2A0992421A266D689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1999AD3EF315407A8500503C4BCEA42 /* Pods-beeadvsSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-beeadvsSDK_Example/Pods-beeadvsSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-beeadvsSDK_Example/Pods-beeadvsSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43C6CF6AA371E21AA32D3F2C77A2C135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D0890A07509CD2D1A564F0497A69F04 /* beeadvsSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/beeadvsSDK/beeadvsSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/beeadvsSDK/beeadvsSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/beeadvsSDK/beeadvsSDK.modulemap";
+				PRODUCT_MODULE_NAME = beeadvsSDK;
+				PRODUCT_NAME = beeadvsSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AFE0E01827793E72C3FDF43385CC7A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1907BABC7D445FA9F2DF3E5DD0A0D58E /* beeadvsSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/beeadvsSDK/beeadvsSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/beeadvsSDK/beeadvsSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/beeadvsSDK/beeadvsSDK.modulemap";
+				PRODUCT_MODULE_NAME = beeadvsSDK;
+				PRODUCT_NAME = beeadvsSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD0819D3CDA0DF73AAD126873ABD21A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF98EC97ED9F2D76A118C1D86BB0FB06 /* Pods-beeadvsSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-beeadvsSDK_Tests/Pods-beeadvsSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-beeadvsSDK_Tests/Pods-beeadvsSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D1BFB33E562CD7112F9A1E346965157E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D82FE3A1D592EAAE9FAF7C341C6F2105 /* Pods-beeadvsSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-beeadvsSDK_Example/Pods-beeadvsSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-beeadvsSDK_Example/Pods-beeadvsSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E3D1E69E366F63FFB190BE2750AB566 /* Build configuration list for PBXNativeTarget "beeadvsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE0E01827793E72C3FDF43385CC7A5F /* Debug */,
+				43C6CF6AA371E21AA32D3F2C77A2C135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2D382B18B3D6059BECF685622694EC0 /* Build configuration list for PBXNativeTarget "Pods-beeadvsSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405A3D8F41F1EAB2A0992421A266D689 /* Debug */,
+				D1BFB33E562CD7112F9A1E346965157E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7E6E3EA007936BF24FD3CA831F7DDBC /* Build configuration list for PBXNativeTarget "Pods-beeadvsSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0819D3CDA0DF73AAD126873ABD21A3 /* Debug */,
+				12C6D597EE953B10ABA31C17DD691493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

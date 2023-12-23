@@ -1,0 +1,16 @@
+PODS:
+  - beeadvsSDK (0.1.0)
+
+DEPENDENCIES:
+  - beeadvsSDK (from `../`)
+
+EXTERNAL SOURCES:
+  beeadvsSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  beeadvsSDK: 12fd7ab984c551091286f17398ecf50d8fdef316
+
+PODFILE CHECKSUM: 8455b7244561eb5df412c32952dc4d5f44c5d8f6
+
+COCOAPODS: 1.14.3
